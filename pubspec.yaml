@@ -1,0 +1,51 @@
+# lib/pubspec.yaml
+
+name: pc_09_placar
+description: "A new Flutter project."
+publish_to: 'none' # Impede a publicação acidental para pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.1 <4.0.0' # Definindo um intervalo de SDK mais claro
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # >>> AQUI É ONDE flutter_localizations DEVE ESTAR, DENTRO DE 'dependencies:'
+  flutter_localizations: # Dependência para internacionalização do Flutter
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# >>> AQUI COMEÇA A SEÇÃO 'flutter:', FORA DE 'dependencies:' E 'dev_dependencies:'
+flutter:
+  generate: true    # <--- ESSA LINHA HABILITA A GERAÇÃO DE CÓDIGO PARA INTERNACIONALIZAÇÃO
+
+  uses-material-design: true # <--- ISSO INDICA QUE SEU APP USA MATERIAL DESIGN
+
+  # Para usar a fonte 'Inter', descomente e configure esta seção.
+  # Você precisará ter os arquivos .ttf da fonte Inter na pasta 'fonts/' do seu projeto.
+  # Se não quiser usar uma fonte personalizada, pode remover esta seção.
+#  fonts:
+#    - family: Inter
+#      fonts:
+#        - asset: fonts/Inter-Regular.ttf
+#        - asset: fonts/Inter-Bold.ttf # Assumindo que você terá um arquivo para o negrito
+#          weight: 700
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  # Se você for usar imagens (assets), descomente a seção 'assets:'
+  # e liste os caminhos para suas imagens. Por exemplo:
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+  # Isso incluirá todos os arquivos dentro das pastas 'assets/images/' e 'assets/icons/'
+  # Certifique-se de que as pastas existam e contenham seus arquivos.

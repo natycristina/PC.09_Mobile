@@ -1,0 +1,38 @@
+{
+  "appTitle": "Contador de Pontos de Basquete",
+  "@appTitle": {
+    "description": "O título da aplicação"
+  },
+  "gameTitle": "Partida de Basquete",
+  "@gameTitle": {
+    "description": "Título principal do jogo"
+  },
+  "team1Name": "Time A",
+  "@team1Name": {
+    "description": "Nome para o Time 1"
+  },
+  "team2Name": "Time B",
+  "@team2Name": {
+    "description": "Nome para o Time 2"
+  },
+  "freeThrowButton": "Lance Livre (+1)",
+  "@freeThrowButton": {
+    "description": "Texto para o botão de lance livre"
+  },
+  "twoPointsButton": "2 Pontos (+2)",
+  "@twoPointsButton": {
+    "description": "Texto para o botão de 2 pontos"
+  },
+  "threePointsButton": "3 Pontos (+3)",
+  "@threePointsButton": {
+    "description": "Texto para o botão de 3 pontos"
+  },
+  "undoButton": "Voltar Lance",
+  "@undoButton": {
+    "description": "Texto para o botão de voltar lance"
+  },
+  "resetButton": "Reiniciar Placar",
+  "@resetButton": {
+    "description": "Texto para o botão de reiniciar"
+  }
+}

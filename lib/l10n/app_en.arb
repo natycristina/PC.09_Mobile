@@ -1,0 +1,38 @@
+{
+  "appTitle": "Basketball Score Counter",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "gameTitle": "Basketball Match",
+  "@gameTitle": {
+    "description": "Main title of the game"
+  },
+  "team1Name": "Team A",
+  "@team1Name": {
+    "description": "Name for Team 1"
+  },
+  "team2Name": "Team B",
+  "@team2Name": {
+    "description": "Name for Team 2"
+  },
+  "freeThrowButton": "Free Throw (+1)",
+  "@freeThrowButton": {
+    "description": "Text for free throw button"
+  },
+  "twoPointsButton": "2 Points (+2)",
+  "@twoPointsButton": {
+    "description": "Text for 2 points button"
+  },
+  "threePointsButton": "3 Points (+3)",
+  "@threePointsButton": {
+    "description": "Text for 3 points button"
+  },
+  "undoButton": "Undo Last Score",
+  "@undoButton": {
+    "description": "Text for undo button"
+  },
+  "resetButton": "Reset Scores",
+  "@resetButton": {
+    "description": "Text for reset button"
+  }
+}
