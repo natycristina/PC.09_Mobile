@@ -1,16 +1,56 @@
-# pc_09_placar
+## 📱 PC 09 - Desenvolvimento Mobile
+Este projeto é uma aplicação Flutter para anotação de placar, com suporte à internacionalização.
 
-A new Flutter project.
+# 🚀 Como Começar
+Siga estas instruções para obter uma cópia do projeto em execução na sua máquina local para fins de desenvolvimento e testes.
 
-## Getting Started
+# ✅ Pré-requisitos
+Ter o Flutter SDK instalado e configurado corretamente.
 
-This project is a starting point for a Flutter application.
+Ter o Android Studio (ou VS Code) com as extensões do Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+Emulador Android configurado OU um dispositivo físico conectado.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Verifique se está tudo ok com o comando:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+bash
+flutter doctor
+📦 Instalação
+
+Clone o repositório:
+
+bash
+git clone https://github.com/natycristina/PC.09_Mobile.git
+
+Acesse a pasta do projeto:
+
+Altere o caminho conforme onde você salvou:
+
+bash
+cd C:\FlutterProjects\PC_09_Placar
+
+Instale as dependências:
+
+bash
+flutter pub get
+
+Limpe o projeto (opcional, mas recomendado):
+
+bash
+Copiar código
+flutter clean
+▶️ Rodando o Aplicativo
+🔹 Opção 1: Usando o Terminal
+Certifique-se de que um emulador esteja rodando ou que um dispositivo esteja conectado.
+
+Execute:
+
+bash
+Copiar código
+flutter run
+🔹 Opção 2: Usando o Android Studio / VS Code
+Abra o projeto no Android Studio ou VS Code (PC_09_Placar).
+
+Inicie um emulador Android (ou conecte um dispositivo real).
+
+Clique no botão "Run" (ícone de ▶️ na barra superior).
